@@ -4,24 +4,13 @@ Style privilégié par le Département de démographie de l'Université de Montr
 
 ## Comment l'installer ?
 
-1. Télécharger [cahiers-quebecois-de-demographie.csl](https://github.com/pmartinolli/CSL-CQD/blob/master/cahiers-quebecois-de-demographie.csl)
-
-   * clic-droit sur le lien puis Enregistrer le lien sous...
-   
-   * ou cliquer sur le lien puis sur RAW sur la page suivante puis Enregistrer la page sous...
+1. Pour télécharger [cahiers-quebecois-de-demographie.csl](https://github.com/pmartinolli/CSL-CQD/blob/master/cahiers-quebecois-de-demographie.csl), cliquer sur le lien, **puis sur RAW** sur la page suivante, puis Enregistrer la page sous...
 
 2. Le fichier doit être enregistré avec l'extension .csl 
 
-3. Dans Zotero, appuyer sur l'icône représentant une roue dentée
+3. Dans Zotero : Edit > Preferences > Cite > Styles > Appuyer sur le bouton « + »
 
-4. Aller dans : Préférences > Citer > Styles 
-
-5. Appuyer sur le « + »
-
-6. Sélectionner le fichier cahiers-quebecois-de-demographie.csl et l'enregistrer
-
-
-
+6. Sélectionner le fichier cahiers-quebecois-de-demographie.csl et l'enregistrer.
 
 
 
