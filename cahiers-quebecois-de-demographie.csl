@@ -18,7 +18,7 @@
     <eissn>1705-1495</eissn>
     <issnl>0380-1721</issnl>
     <summary>Le style des Cahiers québécois de démographie et du Département de démographie de l'Université de Montréal. Basé sur le style Genèses : Sciences sociales et histoire (auteur date) fait par Franziska Heimburger. Modifié et adapté par Pascal Martinolli.</summary>
-    <updated>2019-08-22T13:43:35+00:00</updated>
+    <updated>2019-08-26T12:48:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -151,9 +151,12 @@
   </macro>
   <macro name="publisher">
     <choose>
-      <if type="bill book chapter entry-dictionary entry-encyclopedia graphic legal_case motion_picture report song" match="any">
+      <if type="bill book chapter entry-dictionary entry-encyclopedia graphic legal_case motion_picture song" match="any">
         <text variable="publisher"/>
       </if>
+      <else-if type="report" match="any">
+        <text variable="publisher" suffix=", "/>
+      </else-if>
     </choose>
   </macro>
   <macro name="year-cite">
@@ -281,7 +284,7 @@
         <choose>
           <if type="report thesis">
             <text macro="publisher"/>
-            <text macro="pub-place" suffix=". "/>
+            <text macro="pub-place"/>
           </if>
           <else-if type="book chapter article-journal article-magazine article-newspaper">
             <text macro="pub-place" suffix=". "/>
